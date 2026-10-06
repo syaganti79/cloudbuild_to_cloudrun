@@ -36,5 +36,5 @@ substitutions:
   _REPO: 'test-demo-1'
   _SERVICE: 'my-cloudrun'
   
-  options:
-    default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
+options:
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
