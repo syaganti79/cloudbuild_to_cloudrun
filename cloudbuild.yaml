@@ -35,3 +35,6 @@ substitutions:
   _REGION: 'europe-west2'
   _REPO: 'test-demo-1 '
   _SERVICE: 'my-cloudrun'
+
+options:
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
